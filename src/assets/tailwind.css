@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@layer utilities {
+    .h-2x80 {
+        height: 41rem/* 320px */;
+    }
+    @media (min-width: 1280px) {
+        .xl\:h-2x80 {
+            height: 41rem/* 320px */;
+        }
+    }
+  }
